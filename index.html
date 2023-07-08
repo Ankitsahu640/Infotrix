@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Ankit Sahu | Full-Stack Web Developer</title>
+    <link class="pro-icon" rel="icon" href="./Images/pro.jpg" style="border-radius: 50%;">
+</head>
+<div>
+        <div id="navbar">
+            <div class="navbar-logo"><img class="logo" src="./Images/logo.png"/></div>
+            <div class="nav-tag">
+                <div id="nav-about" onclick="about()" class="navbar-head"><a href="#"><h4 class="nav-head">Home</h4></a></div>            
+                <div class="navbar-head"><a href="#experience"><h4 class="nav-head">Education</h4></a></div>
+                <div class="navbar-head"><a href="#skills"><h4 class="nav-head">Skills</h4></a></div>
+                <div class="navbar-head"><a href="#projects"><h4 class="nav-head">Projects</h4></a></div>
+                <div id="nav-contact" class="navbar-head"><a href="#contact"><h4 class="nav-head">Contact</h4></a></div>
+            </div>
+        </div>
+        <div id="container">
+        <div id="profile">
+
+            <div id="profile-right">
+                <img class="profile-pic" src="./Images/bigheadkarngyan.png" alt="">
+            </div>
+        
+            <div id="profile-left">
+                <p class="hi">HI, I AM</p>
+                <h1 class="name">ANKIT SAHU</h1>
+                <p class="full-stack">Full-Stack Web Developer</p>
+                <p class="about">I'm a driven computer science student with a passion for coding. My expertise lies in competitive programming and web development
+                    using MERN stack. With a strong desire to learn and grow, I'm eager to take on new challenges and contribute my skills to a dynamic
+                    team.</p>
+                <button id="resume" onclick="showResume()">Resume</button>
+                
+                <div id="social">
+                    <img onclick="github()" class="github" src="./Images/github.svg"/>
+                    <img onclick="linkedin()" class="linkedin" src="./Images/contact/linkedin.svg"/>
+                    <img id="popup-gmail" onclick="gmail()" src="./Images/contact/email.png" alt="">
+                    <img id="popup-location" onclick="socialLocation()" src="./Images/contact/location.png" alt="">
+                    <img id="popup-phone" onclick="contact()" src="./Images/contact/phone.png" alt="">
+                </div>
+            </div>
+        
+        </div>   
+        
+        <div id="experience">
+            <h2 class="blu-had">Education</h2>
+
+            <div id="edu">
+                <div class="edu-right mvright">
+                    <h3 class="hh3">Bachelor of Technology</h3>
+                    <h5 class="hh5">Kanpur Institute of Technology, Kanpur UP</h5>
+                    <p class="ss">Computer Science  <i>( 8.5 CGPA )</i></p>
+                </div>
+                <div class="edu-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                </div>
+                <div class="edu-date" style="text-align: left;">
+                    <h4>November 2020 - July 2024</h4>
+                </div>
+            </div>
+
+            <div id="edu">    
+                <div class="edu-date" style="text-align: right;">
+                    <h4>May 2017 - April 2019</h4>
+                </div>
+                <div class="edu-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                </div>
+                <div class="edu-right mvleft">
+                    <h3 class="hh3">Intermediate</h3>
+                    <h5 class="hh5">Kendriya Vidyalaya No. 3 AFS , Chakeri Kanpur</h5>
+                    <p class="ss">Maths-Physics  <i>( 88.6 % )</i></p> 
+                </div>
+            </div>
+        </div>
+        
+        <div id="skills">
+            <h2 class="blu-had">Skills</h2>
+            <div id="skills-first-row">
+                <div>
+                    <img src="./Images/c++.png" alt="">
+                    <p>C++</p>
+                </div>
+                <div>
+                    <img src="./Images/html.svg" alt="">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="./Images/css3.svg" alt="">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img src="./Images/js.svg" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <img src="./Images/react.svg" alt="">
+                    <p>React.js</p>
+                </div>
+                <div>
+                    <img src="./Images/redux.svg" alt="">
+                    <p>Redux</p>
+                </div>
+                <div>
+                    <img src="./Images/bootstrap.svg" alt="">
+                    <p>Bootstrap</p>
+                </div>
+                <div>
+                    <img src="./Images/mongodb.png" alt="">
+                    <p>MongoDB</p>
+                </div>
+                <div>
+                    <img src="./Images/exp.svg" alt="">
+                    <p>Express Js</p>
+                </div>
+                <div>
+                    <img src="./Images/nodejs.svg" alt="">
+                    <p>Node Js</p>
+                </div>
+                <div>
+                    <img src="./Images/sql.png" alt="">
+                    <p>SQL</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="projects">
+            <h2 class="blu-had">Projects</h2>
+            <div id="projects-div" style="margin-top: 50px;">
+
+                <div class="project">
+                    <div id="top-project">
+                            <h4 class="derm">Perfect Notes</h4>
+                            <img class="project-img" src="./Images/project/Screenshot (244).png" alt="" >
+                        <p class="project-disc">
+                            It's a MERN stack web app with Redux, JWT token authentication, and RESTful API for note management. Implemented sharing, search, and filtering features for better organization and collaboration. 
+                        </p>
+                        <div class="project-icon">
+                            <div><p>Tech Stack:</p></div>
+                            <div>
+                                <img src="./Images/react.svg" alt="">
+                                <img src="./Images/bootstrap.svg" alt="">
+                                <img src="./Images/redux.svg" alt="">
+                                <img src="./Images/mongodb.png" alt="">
+                                <img src="./Images/exp.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="video-social">
+                            <div onclick="githubPN()" class="git">
+                                <p >GitHub</p>
+                            </div>
+                            <div onclick="livePN()" class="live">
+                                <p >Live Code</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="project">
+                    <div id="top-project">
+                            <h4 class="derm">Express News</h4>
+                            <img class="project-img" src="./Images/project/Screenshot (246).png" alt="" >
+                        <p class="project-disc">
+                            It is a News Website uses gnews api, update you about the current affair happening. We can fetch news according to category and also has search filter and also has a dark mode feature
+                        </p>
+                        <div class="project-icon">
+                            <div><p>Tech Stack:</p></div>
+                            <div>
+                                <img src="./Images/html.svg" alt="">
+                                <img src="./Images/css3.svg" alt="">
+                                <img src="./Images/react.svg" alt="">
+                                <img src="./Images/bootstrap.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="video-social">
+                            <div onclick="githubEN()" class="git">
+                                <p >GitHub</p>
+                            </div>
+                            <div onclick="liveEN()" class="live">
+                                <p >Live Code</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="project">
+                    <div id="top-project">
+                            <h4 class="derm">Memory Game</h4>
+                            <img class="project-img" src="./Images/project/Screenshot (245).png" alt="" >
+                        <p class="project-disc">
+                            Memory Matching Game is a simple online fun game, which contains various levels. It also calculates how many moves and how much time taken by a player to finish the game.
+                        </p>
+                        <div class="project-icon">
+                            <div><p>Tech Stack:</p></div>
+                            <div>
+                                <img src="./Images/html.svg" alt="">
+                                <img src="./Images/css3.svg" alt="">
+                                <img src="./Images/js.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="video-social">
+                            <div onclick="githubMG()" class="git">
+                                <p >GitHub</p>
+                            </div>
+                            <div onclick="liveMG()" class="live">
+                                <p >Live Code</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="project">
+                    <div id="top-project">
+                            <h4 class="derm">Lets Talk</h4>
+                            <img class="project-img" src="./Images/project/Screenshot (243).png" alt="" >
+                        <p class="project-disc">
+                            It's a responsive real-time chat website utilizing socket.io. It incorporates seamless communication among multiple users, offering a user-friendly interface for real-time chatting.</p>                        
+                        <div class="project-icon">
+                            <div><p>Tech Stack:</p></div>
+                            <div>
+                                <img src="./Images/html.svg" alt="">
+                                <img src="./Images/css3.svg" alt="">
+                                <img src="./Images/bootstrap.svg" alt="">
+                                <img src="./Images/nodejs.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="video-social">
+                            <div onclick="githubLT()" class="git">
+                                <p >GitHub</p>
+                            </div>
+                            <div onclick="liveLT()" class="live">
+                                <p >Live Code</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="project">
+                    <div id="top-project">
+                            <h4 class="derm">TextUtil</h4>
+                            <img class="project-img" src="./Images/project/Screenshot (242).png" alt="" >
+                        <p class="project-disc">
+                            TextUtils is a versatile tool that counts words and characters. It allows you to manipulate text to your liking, removing extra spaces, copying manipulated text, and converting between uppercase and lowercase. </p>
+                        <div class="project-icon">
+                            <div><p>Tech Stack:</p></div>
+                            <div>
+                                <img src="./Images/react.svg" alt="">
+                                <img src="./Images/css3.svg" alt="">
+                                <img src="./Images/bootstrap.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="video-social">
+                            <div onclick="githubTU()" class="git">
+                                <p >GitHub</p>
+                            </div>
+                            <div onclick="liveTU()" class="live">
+                                <p >Live Code</p>
+                            </div>
+                        </div>
+                </div>
+
+
+        </div>
+
+      </div>
+
+      <div id="contact">
+      <h2 class="blu-had">Get in touch</h2>
+      <h2>Ankit Sahu</h2>
+      <div id="social-icons">
+          <div><svg onclick="contactLinkedIn()" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></div>
+          <div><img onclick="github()" class="github" src="./Images/github.svg"/></div>          
+          <div><img id="popup-gmail-below" src="./Images/contact/email.png" alt=""></div>
+          <div><img id="popup-location-below" onclick="socialLocation()" src="./Images/contact/location.png" alt=""></div>
+          <div><svg id="popup-phone-below" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"/></svg></div>
+      </div>
+      <p id="show-social" style="text-align: center;"></p>
+    </div>
+
+    <div id="credits">
+        <p>2023©Designed and built by ANKIT SAHU</p>
+        <!-- <a href=""><div></div></a> -->
+    </div>
+
+      </div>
+
+      <div id="popup-wrapper1" class="popup-container">
+        <div class="popup-content">
+          <span id="close1">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Feel free to Connect with me.!   <p style="color: #607d8b; text-align: center;">sahuankit640@gmail.com</p></p>
+        </div>
+      </div>
+
+      <div id="popup-wrapper2" class="popup-container">
+        <div class="popup-content">
+          <span id="close2">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Checkout my Location Here.!   <p style="color: #607d8b; text-align: center;">Kanpur, UttarPradesh</p></p>
+        </div>
+      </div>
+
+      <div id="popup-wrapper3" class="popup-container">
+        <div class="popup-content">
+          <span id="close3">&times;</span>
+          <p style="text-align: center; font-weight: 800;">Call me to.!   <p style="color: #607d8b; text-align: center;">+91 6386410397</p></p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
+<script src="./script.js">
+</script>
